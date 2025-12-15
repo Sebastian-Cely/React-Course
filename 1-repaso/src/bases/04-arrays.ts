@@ -1,10 +1,11 @@
-const myArray: (number | string)[] = [1, 2, 3, '4', 5, 6];
+const myArray: number[] = [1, 2, 3, 4, 5, 6];
 
-myArray.push('10');
-myArray.push(11);
+const myArray2 = [...myArray];
 
-console.log(myArray);
+myArray2.push(7);
 
-for (const myNumber of myArray) {
-    console.log(myNumber + 10);
-}
+console.log(myArray, myArray2);
+
+// La recomendación de este ejemplo es no permitir que
+// React infiera el tipo de datos preferiblemente, ni
+// dejar estos tan abiertos. 
