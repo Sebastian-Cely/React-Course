@@ -1,6 +1,6 @@
 const characterNames = ['Gokú', 'Vegeta', 'Trunks'];
 
-// En la desesctrcturación de arrays importa el orden de los elementos
+// En la desestructuración de arrays importa el orden de los elementos
 
 const [gokú, vegeta, trunks] = characterNames;
 
@@ -11,7 +11,7 @@ const [gokú, vegeta, trunks] = characterNames;
 console.log(gokú, vegeta, trunks);
 
 const returnsArrayFn = () => {
-    // as const indica que los valores siempre tendrán este tidpo de datos,
+    // as const indica que los valores siempre tendrán este tipo de datos,
     // es decir que no se puede cambiar el valor de los elementos
     return ['ABC', 123] as const;
 };

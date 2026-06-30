@@ -1,5 +1,6 @@
 import './style.css';
 
+// import './bases/11-async-awaits';
 import './bases/11-async-awaits';
 
 // import { getHeroesByOwner } from './bases/08-imp-exp';
@@ -8,7 +9,7 @@ import './bases/11-async-awaits';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-  <h1>Hola Mundo!</h1>
+  <h1>Hello World!</h1>
   </div>
 `;
 

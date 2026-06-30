@@ -1,10 +1,19 @@
 // type Owner = 'DC' | 'Marvel';
 
-export interface Hero {
+export interface Hero { 
     id: number;
     name: string;
     owner: Owner;
 }
+
+// Estructura de tipos
+//type Owner = 'DC' | 'Marvel'
+
+// Estructura de enumeraciones
+// enum Owner {
+//     DC = 'DC',
+//      Marvel = 'Marvel',
+// }
 
 export const Owner = {
     DC: 'DC',

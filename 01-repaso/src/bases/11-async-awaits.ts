@@ -25,3 +25,5 @@ getRandomGifUrl()
     .catch((err) => {
         console.error(err);
     })
+
+getRandomGifUrl().then(createImageInsideDOM);

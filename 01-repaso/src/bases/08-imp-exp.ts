@@ -4,7 +4,7 @@ const getHeroeById = (id: number): Hero | undefined => {
     return heroes.find(heroe => heroe.id === id);
 }
 
-console.log(getHeroeById(2));
+// console.log(getHeroeById(2));
 
 export const getHeroesByOwner = (owner: Owner) => {
     return heroes.filter(
